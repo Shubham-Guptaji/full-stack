@@ -1,0 +1,26 @@
+Problem Statement 1 ->
+
+Explain the usage of ternary operator with syntax and write a program to check whether the number is even
+or odd using the ternary operator.
+
+Solution -> The main use of ternary operator is to conditionally return the value according to the condition given.
+
+        Syntax ->  condition ? expression 1 : express 2
+
+In above syntax, if the given condition is true then it return express 1 and if the condition is false it return condition 2.
+
+
+Problem Statement 2 ->
+
+Describe the usage of the comma operator in JavaScript and provide an example.
+
+Solution -> It is used to evaluate the expressions from left to right and return the last expression.
+For string, it joins the string to the other value.
+
+        Example -> 
+            let num = 5;
+            (--num,num--,num+=3)
+            console.log(num); // result : 6
+            let name = "Shyam";
+            console.log(name,num) // result Shyam 6
+
