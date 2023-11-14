@@ -1,0 +1,202 @@
+INTRODUCTION TO JAVASCRIPT FUNDAMENTALS
+_______________________________________
+
+Question 1: Explain what JavaScript is and its role in web development.
+
+Answer. JavaScript is high level programming language built in in 1995 by Brendan Eich as Mocha later named as LiveSript and then JAVASCRIPT. 
+It is dynamically typed language. It is especially used in web development, app development, web games development, making servers, and now also in automation. 
+It's role in web development is that it is used in both frontend and backend as it provides client and side scripting facility, asynchronous nature, cross 
+browser compatibility and server side running capability.
+
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
+
+Answer. The key difference between HTML and JavaScript is that :
+    
+    HTML -
+
+        A. HTML is a markup language used to build basic structure of website with tags.
+        B. It provides heading, paragraph, links and images etc.
+
+    JAVASCRIPT - 
+        A. JAVASCRIPT is a scripting language that makes the html page dynamic.
+        B. It changes with events and user interactions.
+    
+    Example - 
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <title>Html with JS</title>
+                    <script>
+                        function alertFn() {
+                            alert('JavaScript called');
+                        }
+                    </script>
+                </head>
+                <body>
+                    <h1>HTML Heading, Button and JavaScript Alert</h1>
+                    <button onclick="alertFn()">Click me</button>
+                </body>
+            </html>
+
+Question 3: List and describe the five primitive data types in JavaScript.
+
+Answer. There are 7 primitive datatypes - 
+
+    1. String - All alphanumberic characters, symbols and numbers inside single or double quotes are termed string.
+            
+            Example - "Github234*"
+        
+    2. Number - Any float or decimal number without quoteis termed as Number.
+
+            Example - 234234
+
+    3. BigInt - numbers outside range from -(2^53-1) to (2^53-1) are termed as BigInt and end with n letter.
+
+            Example - 234239487n
+
+    4. Null - Null indicates the empty value.
+    
+    5. undefined - this value is assigned when variable has not been assigned a value.
+
+    6. Symbol - Symbols are immutable and indtroduced in ES6.
+
+    7. Boolean - Boolean is either true or false.
+
+Question 4: What is the purpose of declaring variables in JavaScript, and how do you declare them using the 'let' keyword?
+
+Answer. Variables are containers that store any type of data that can be used throughout the program and can be managed easily. 
+Let is valid only inside declaring scope. Variables can be declared with let as :
+            let name = "Rohan";
+here at "name" we can use any descritive term and at "Rohan" we use our data
+
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and
+multi-line comments.
+
+Answer. Comments are very useful as it can be used to store some informative data about the code written or any other information that is not executed by browser. 
+
+    Example - 
+
+        Single Line - // This is a single line comment.
+        Multi Line comment - /* This is basically 
+                                a multi line
+                                comment */
+
+Question 6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript. 
+Provide an example where using a clear identifier improves code readability.
+
+Answer. Choosing meaningful and descriptive variable for improving readability, maintanibility and debugging. 
+It acts as a description of the real data. 
+
+    Example - 
+
+        let a = 50;
+        let b = 22/7*a*a;
+        console.log(b);
+        
+        // above the a and b are not describing what is basically data it represent
+
+        let radius = 12;
+        let circleArea = 22/7*radius*radius;
+        console.log(circleArea);
+
+        // here variable name represent the proper data description.
+
+
+INTRODUCTION TO JAVASCRIPT OPERATIONS 
+______________________________________
+
+ 
+Q1. Explain the role of operators in JavaScript. Why are they essential in programming? 
+
+Ans. Operators are symbols that perform operations on variables and values ( or we can say operands ). 
+These are very essential as they provide the facility of doing the computation work. These also help with the numerical calculations. 
+Proper use of operators make the whole code more efficient and readable. 
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+Ans. There are many js operators available and can be categorized on their functionality as : 
+	A. Arithmetic Operator - These operators performs basic mathematical operations.
+		Example - 
+			
+			let x = 6;
+			let y = 2;
+
+			console.log(x + y); // 8 adds value
+			console.log(x - y); // 4 subtracts value
+			console.log(x * y); // 12 multiplies value
+			console.log(x / y); // 3 divide the value
+			console.log(x % y); // 0 gives the reminder
+
+	B. Assignment Operator - These operators are use to assign value to the literals.
+		Example - 
+
+                         let variable = 10;
+
+                         console.log('Initial Value:', variable);
+                         variable += 5;   
+                         console.log('After Addition:', variable);   // Result: 15
+                         variable -= 3;   
+                         console.log('After Subtraction:', variable);   // Result: 12
+                         variable *= 2;  
+                         console.log('After Multiplication:', variable);   // Result: 24
+                         variable /= 4; 
+                         console.log('After Division:', variable);   // Result: 6
+
+
+	C. Comparison Operator - These operators compare two numbers or values and return a boolean result.
+		Example - 
+                         let a = 10;
+                         let b = 5;
+
+                         console.log('Is Equal:', a == b);   // Result: false
+                         console.log('Is Not Equal:', a != b);   // Result: true
+                         console.log('Is Greater:', a > b);   // Result: true
+                         console.log('Is Less:', a < b);   // Result: false
+                         console.log('Is Greater or Equal:', a >= b);   // Result: true
+                         console.log('Is Less or Equal:', a <= b);   // Result: false
+		
+	D. Logical Operator - These operators work logically on true and false condition and also return the result in boolean type.
+		Exampe - 
+                         let isTrue = true;
+                         let isFalse = false;
+
+                         console.log('Logical AND:', isTrue && isFalse);   // Result: false, true only when both true
+                         console.log('Logical OR:', isTrue || isFalse);   // Result: true, false only when both false
+                         console.log('Logical NOT:', !isTrue);   // Result: false, gives opposite
+
+	E. Unary Operator - These operators works with single operand. 
+		Example - 
+                         let number = 5;
+
+                         let unaryPlus = +number;   // 5
+                         let unaryMinus = -number;   // -5
+                         let increment = ++number;   // 6 , pre-increment(increases the value by 1)
+                         let decrement = --number;   // 5 , pre-decrement(decreases the value by 1)
+                         let post-increment = number++;   // 5 , post-increment(increases the value by 1 after assigning)
+                         let post-decrement = number--;   // 6 , post-decrement(decreases the value by 1 after assigning)
+
+
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+Ans. The main difference between unary, binary and ternary operators is these work with one, two and three operators respectively.
+
+	Example - 
+		Unary Operators -
+			let x = 2;
+			unaryPlus = ++x; // here ++x is unary operator
+			console.log(unaryPlus) // return 3 
+		
+		Binary Operators - 
+			console.log("binary operator ", (3+2))// return 5, + is binary
+		
+		Ternary Operators -
+			console.log("ternary operator",(true?2:3)) // return 2
+
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts important?
+
+Ans. Operators in precendence are divided in difference levels and the higher precedence operators are computed first and lower later. 
+Associativity is the rule in which the operators of same precedence level computed that is from left to right. 
+These concepts are important as to avoid computing errors and help in assigning condition according and getting desired output. 
+
+
+		
