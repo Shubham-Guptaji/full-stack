@@ -1,0 +1,8 @@
+I have made these 3 projects with tailwind using vite and later ran 
+npm run build command to get production ready projects.
+
+The hosted links are : 
+
+Tailwind form - https://shubham-guptaji.github.io/full-stack/tailwind-projects/tailwind-form/
+Tailwind gallery - https://shubham-guptaji.github.io/full-stack/tailwind-projects/tailwind-gallery/
+Tailwind dashboard - https://shubham-guptaji.github.io/full-stack/tailwind-projects/tailwind-dashboard/
