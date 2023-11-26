@@ -100,9 +100,9 @@ Ans. The steps for contributing to any open-source repo is :
 Q6. Deploy Tailwind projects named Youtube, slack, and Gmail clones on GitHub pages and share the deployed link of those three. Expected output - Live hosted URL Link 
 of your deployed respective website with GitHub pages.
 
-Ans. Youtube clone link - 
-     Slack clone link - 
-     Gmail clone link -  
+Ans. Youtube clone link - https://shubham-guptaji.github.io/full-stack/git-and-github/clones/youtube-clone/
+     Slack clone link - https://shubham-guptaji.github.io/full-stack/git-and-github/clones/slack-clone/
+     Gmail clone link -  https://shubham-guptaji.github.io/full-stack/git-and-github/clones/gmail-clone/
      screenshots - https://github.com/Shubham-Guptaji/full-stack/tree/main/git-and-github/outputs
 
 
