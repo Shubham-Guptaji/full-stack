@@ -1,0 +1,1 @@
+((num) => console.log(`Square is : ${num*num}`))(15);
