@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+            width: 100vw;
+            color: white;
+            text-align: center;
+        }
+        .box1, .box4{
+            padding: 15px;
+            background-color: black;
+        }
+        .section{
+            width: 100%;
+        }
+        .box2{
+            background-color: lightgreen;
+        }
+        .box3{
+            background-color: orange;
+        }
+        .section div{
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            height: 100%;
+        }
+        .section {
+            display: flex;
+            flex-direction: column;
+        }
+        @media only screen and (max-width:768px){
+            .container{
+                flex-direction: column;
+            }
+            .section{
+                flex-direction: column;
+            }
+            .container div{
+                width: 100%;
+            }
+            .box4{
+                margin-top:auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">Box1</div>
+        <div class="section">
+
+            <div class="box2">Box2</div>
+            <div class="box3">Box3</div>
+        </div>
+        <div class="box4">Box4</div>
+    </div>
+</body>
+
+</html>
