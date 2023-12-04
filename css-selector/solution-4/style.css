@@ -1,0 +1,20 @@
+button:first-child{
+    padding: 15px 25px;
+    margin: 70px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: rgb(76, 76, 255);
+    border-radius: 12px;
+}
+button::before{
+    content:"PW ";
+}
+button::after{
+    content:"Skills";
+}
+
+button:hover{
+    box-shadow: 8px 5px 5px gray;
+    cursor: pointer;
+}
