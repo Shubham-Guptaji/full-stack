@@ -1,1 +1,3 @@
-Ans 1. var keyword is specially used for user defined properties with var we can define any custom property that is going to be used many times with a specific user friendly name. The properties defined with it are global it means these are accessible within whole document as there are declared at the root level of html document.
+Ans 1. var keyword is specially used for user defined properties with var we can define any custom property that is going to be used 
+many times with a specific user friendly name. The properties defined with it are global it means these are accessible within whole 
+document as there are declared at the root level of html document.
