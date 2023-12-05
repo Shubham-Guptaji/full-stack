@@ -5,7 +5,7 @@ Ans. Grid auto rows and Grid auto columns are basically used as default properti
     these work as the default width and height for all grid items. 
 
         Example link - 
-
+            https://github.com/Shubham-Guptaji/full-stack/blob/main/css-grid/task-3.html
 
         Here second row is width of default that is taken from grid auto rows.
 
@@ -17,3 +17,4 @@ Ans. the main difference between justify-items and justify-self is that justify-
     is added directly to the child element.
 
         Example link - 
+            https://github.com/Shubham-Guptaji/full-stack/blob/main/css-grid/task-5.html
