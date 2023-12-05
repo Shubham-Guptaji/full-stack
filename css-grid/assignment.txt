@@ -1,0 +1,19 @@
+Q3. Explain the use of grid-auto-row and grid-auto-column using code examples.
+
+Ans. Grid auto rows and Grid auto columns are basically used as default properties 
+    that comes into action when user don't define custom height and width of the rows so 
+    these work as the default width and height for all grid items. 
+
+        Example link - 
+
+
+        Here second row is width of default that is taken from grid auto rows.
+
+
+Explain the difference between justify-items and justify-self using code examples.
+
+Ans. the main difference between justify-items and justify-self is that justify-items is 
+    mainly applied on the parent element whose childrens we want to justify and the justify-self
+    is added directly to the child element.
+
+        Example link - 

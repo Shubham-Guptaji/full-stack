@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrange Container</title>
+    <style>
+        .container{
+            display: grid;
+            margin: 50px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 250px);
+            font-size: 28px;
+            gap: 10px;
+            grid-template-areas: 
+            "first first second"
+            "third fourth second"
+            ;
+            background-color: rgb(0, 255, 115);
+            justify-items: center;
+        }
+        .container div{
+            background-color: rgb(255,228,196);
+            padding: 45px;
+            text-align: center;
+        }
+        .section-1{
+            grid-area: first;
+        }
+        .section-2{
+            grid-area: second;
+        }
+        .section-3{
+            grid-area: third;
+        }
+        .section-4{
+            grid-area: fourth;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section-1">A</div>
+        <div class="section-2">B</div>
+        <div class="section-3">C</div>
+        <div class="section-4">D</div>
+    </div>
+</body>
+</html>
