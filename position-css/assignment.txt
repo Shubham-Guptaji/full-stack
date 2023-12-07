@@ -1,0 +1,16 @@
+Task 2
+Problem Statement
+Explain the difference between Absolute and Relative positioning.
+
+Ans. the relative positioning works as container for abosolute positioning and relative postioning object is set in document as normal element whereas abosolute positioning
+    object sets its postioning based on its relative parent. Absolute element can also overlap other elements whereas relative don't overlap other element.
+
+Task 5:
+Problem Statement
+Explain the z-index, with a code example.
+
+Ans. Z-index may be defined as the ordering of elements when these overlap one another so it defines which should be above and 
+    which should be below the other element by giving a ordered number to each element.
+
+    Example link - 
+        
