@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Cards</title>
+    <script src="https://kit.fontawesome.com/ef5f08f447.js" crossorigin="anonymous"></script>
+    <style>
+        :root{
+            --dark : rgb(32, 40, 66);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #f4f2fd;
+        }
+        .container{
+            width: fit-content;
+            display: flex;
+            gap: 50px;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+        .card{
+            background-color: white;
+            color: var(--dark);
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 0 6px darkgray;
+        }
+        .card h1{
+            font-size: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .card h1 + p{
+            margin-top: 5px;
+            font-size: 19px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .card h2{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 40px;
+            font-family: sans-serif;
+        }
+        .card li{
+            list-style: none;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+        .card li i{
+            margin-right: 5px;
+        }
+        .card:nth-child(2){
+            background-color: var(--dark);
+            color: white;
+        }
+        .card button{
+            margin: 0 auto;
+            display: block;
+            width: fit-content;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 20px;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-top: 35px;
+            border-radius: 100px;
+            color: white;
+            background-color: var(--dark);
+            cursor: pointer;
+        }
+        .card:nth-child(2) button{
+            background-color: white;
+            color: var(--dark);
+        }
+    </style>
+</head>
+<body class="body-color">
+    <div class="container">
+        <div class="card">
+            <h1>Free Plan</h1>
+            <p>For Personal</p>
+            <h2>$0</h2>
+            <ul>
+                <li><i class="fa-solid fa-circle-check fa-lg"></i> 1 user</li>
+                <li><i class="fa-solid fa-circle-check fa-lg"></i> 4 Web mails</li>
+                <li><i class="fa-solid fa-circle-check fa-lg"></i> Responsive website</li>
+                <li><i class="fa-solid fa-circle-check fa-lg"></i> Free SSL</li>
+            </ul>
+            <button>Subscribe now</button>
+        </div>
+        <div class="card">
+            <h1>Basic Plan</h1>
+            <p>For small bussiness</p>
+            <h2>$29</h2>
+            <ul>
+                <li><i class="fa-solid fa-circle-check fa-lg"></i> 4 users</li>
+                <li><i class="fa-solid fa-circle-check fa-lg"></i> 10 Web mails</li>
+                <li><i class="fa-solid fa-circle-check fa-lg"></i> Responsive website</li>
+                <li><i class="fa-solid fa-circle-check fa-lg"></i> Free SSL</li>
+            </ul>
+            <button>Subscribe now</button>
+        </div>
+        <div class="card">
+            <h1>Pro Plan</h1>
+            <p>For enterprise</p>
+            <h2>$49</h2>
+            <ul>
+                <li><i class="fa-solid fa-circle-check fa-xl"></i> Unlimited user</li>
+                <li><i class="fa-solid fa-circle-check fa-xl"></i> Unlimited Web mails</li>
+                <li><i class="fa-solid fa-circle-check fa-xl"></i> Responsive website</li>
+                <li><i class="fa-solid fa-circle-check fa-xl"></i> Free SSL + SEO</li>
+            </ul>
+            <button>Subscribe now</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+01. Describe the main differences between the CSS Fexbx layout model and the CSS Grid layout model. When
+    would you choose to use one over the other?
+
+Ans. flexbox are used for 1D layouts or that are basically used for layouts that are in rows or columns.
+     Whereas grid is used for 2D layouts and these are used for making complex layouts where every single cell
+     may be at different place in layout.
+    
+Q2. Explain the role of the following key properties in the Flexbox layout model
+    1. justify-content
+    2. align-items
+    3. gap
+    4. flex-direction
+    5. flex-wrap
+
+Ans. Justify-content is used for aligning content in the row as it can placed at any position in horizontal row.
+     Align-items is the property that is used for aligning content in column axis. It is most of the time used for aligning content in vertical column.
+     Gap gives the space between the child elements of a given container to make the appearance more clear.
+     flex-direction is used to give the order of element placed in flexbox as it may be in row based or may be in column based.
+     flex-wrap is the property that is mainly used when the items doesn't fit properly in the row then the overflowed content gets into the next row.
