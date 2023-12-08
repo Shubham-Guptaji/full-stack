@@ -1,0 +1,32 @@
+Q1. List out the features of HTML5. 
+Ans. The features of HTML5 are direct integration of audio and video, geolocation api, local storage for
+    storing data for small time in browser, form improvements with data, time and color and attributes as 
+    required and autofocus, added accessibility attributes, and best of canvas for graphic rendering.
+
+Q2. What are HTML entities ? List out 5 commonly used HTML entities.
+Ans. HTML entities are special codes to represent the symbols that are not present on the keyboard. These 
+    starts with & symbol and ends with ; symbol.
+
+    Some entities are - 
+
+        &copy; - represent copyright sign
+        &nbsp; - represent non breaking space
+        &lt; - represent less than symbol 
+        &gt; - represent greater than symbol 
+        &rarr - represent right arrow
+
+Q3. Define accessibility in the context of web development? Discuss why it's essential to create accessible
+websites and how it benefits different user groups.
+
+Ans. Web accessibility means that the website that is usable for everyone whether there is anyone with disability 
+    can also make full use of website and interact with it and understand effectively. That means accessibile for everyone.
+    It is important because it ensure that everyone has equal access to the website content and it improves the overall user 
+    experience for the website as it reach a broad audience hence leading to higher rank of website. 
+    It benefits user with visually disabled people by getting accessibile from screen readers, whereas hearing impaired people may use
+    transcripts by making audio content understandable. Mobile users can also access the content through responsive layouts.
+
+Q4. List any 3 ways which help us in improving the accessibility of HTML
+
+Ans. The ways which helps us in improving the accessibility of content are that we can use html semantic elements 
+    such as header, nav, main, article and footer that are equipped with assitive properties, using role attribute with the elements to 
+    know the proper role of element, using proper coloring with the descriptive text and also add alt to image and add label for every input.
