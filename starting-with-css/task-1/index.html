@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css writing</title>
+    <link rel="stylesheet" href="./style.css">
+    <style type="text/css">
+        .internal{
+            color: lightgreen;
+        }
+        .internal-external{
+            color: lightgreen;
+        }
+        .inline-internal{
+            color: lightgreen;
+        }
+        .inline-internal-external{
+            color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <!-- div with single style -->
+    <div style="color: aqua;">
+        Inline content
+    </div>
+    <div class="internal">
+        Internal content
+    </div>
+    <div class="external">
+        external content
+    </div>
+    <!-- div with dual style to same element -->
+    <div class="internal-external">
+        internal-external content
+    </div>
+    <div class="inline-internal" style="color: aqua;">
+        inline-internal content
+    </div>
+    <div class="inline-external" style="color:aqua">
+        inline-external content
+    </div>
+    <!-- div with all style type to same element -->
+    <div class="inline-internal-external" style="color: aqua;">
+        inline-internal-external content
+    </div>
+</body>
+</html>
