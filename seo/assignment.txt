@@ -1,0 +1,28 @@
+Q1. What is SEO and explain the importance of SEO ?
+Ans. The full form of SEO is Search Engine Optimization. It helps in ranking the website on search engines by
+    giving the relevant data to the search engine crawlers that helps in ranking and getting more traffic. It helps
+    in overall performance of website in online web world. 
+
+Q3. What are benefits of using meta tags ?
+Ans. The meta tags are very much useful. These are not directly visible to users but these seen clearly by web crawlers 
+    as meta tags provide to the point data to the crawlers and helps crawlers what the data is about and helps in ranking.
+    These are also best for optimizing site for being shared on different social media platforms.
+
+Q5. Define Favicon and give an illustrative example ?
+Ans. A favicon is tiny icon present in the tab of the browser. These are also shown in the bookmarks.
+    These are related to logo of website. These enhance the overall user experience.
+
+    Example - 
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>SEO Favicon</title>
+                
+                <link rel="icon" type="image/x-icon" href="favicon.ico">
+            </head>
+            <body>
+            </body>
+        </html>
