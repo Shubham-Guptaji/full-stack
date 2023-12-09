@@ -1,0 +1,26 @@
+Q2. Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML
+document.
+
+Ans. The comments are very useful element of website as these provide important information about the 
+    website code and these are neglected by browsers. They also explain the purpose of code as a note.
+
+    Example is provided in task-2.html file
+
+Q4. Write a short note on Tag and element with an example.
+
+Ans. Html tags are words enclosed in angular brackets instructing browser that how content inside should 
+    be displayed.
+
+    e.g.,
+        <h1> h1 is a tag </h1> 
+
+    Html elements are container of html tags and these also have endings with same tag with a slash (/).
+
+    e.g., 
+        <p>This is p tag with angular brackets said as element </p>
+
+Q5 What is the DOCTYPE Declaration in HTML ?
+
+Ans. It is Declaration specially for browsers that the content is HTML5 so it's decoding and rendering
+    should be done strictly in html5. It is basically for versioning of the website and it is always  
+    declared in the beginning of the html document.
