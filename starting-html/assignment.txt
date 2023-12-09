@@ -4,7 +4,8 @@ document.
 Ans. The comments are very useful element of website as these provide important information about the 
     website code and these are neglected by browsers. They also explain the purpose of code as a note.
 
-    Example is provided in task-2.html file
+    Example link - 
+        https://github.com/Shubham-Guptaji/full-stack/blob/main/starting-html/task-2.html
 
 Q4. Write a short note on Tag and element with an example.
 
