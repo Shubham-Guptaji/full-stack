@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Ajax and fetching Data</title>
+    <script>
+        function fetchUserData() {
+          let request = new XMLHttpRequest();
+    
+          request.open("GET", "https://jsonplaceholder.typicode.com/users", true);
+    
+          request.onload = function() {
+            if (request.status === 200) {
+              let users = JSON.parse(request.responseText);
+              console.log('data : ',users)
+              console.log("List of User Names:");
+              document.getElementById("namelist").innerHTML = "";
+              users.forEach(user => {
+                console.log(user.name);
+                document.getElementById("namelist").innerHTML += `<li>${user.name}</li>`;
+              });
+
+            } else  console.error("Some Error occured");
+          };
+    
+          request.send();
+        }
+      </script>
+</head>
+<body>
+    <button onclick="fetchUserData()">Get User Names</button>
+    <ul id="namelist">
+
+    </ul>
+</body>
+</html>

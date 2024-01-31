@@ -1,0 +1,45 @@
+Q1. Define XMLHttpRequest object, and How is it used in AJAX?
+
+Ans. The XMLHttpRequest object is a JavaScript object that allows making HTTP requests to a server and retrieving data without refreshing the entire webpage. 
+     It is a fundamental part of AJAX, enabling asynchronous requests in the background, updating specific parts of a webpage without reloading, and facilitating 
+     a smoother user experience. 
+
+Q3. What is the same-origin policy in the context of AJAX requests, and how can you work around it?
+
+Ans. The same-origin policy restricts AJAX requests to only be made to the same domain as the one that served the web page. 
+     To work around it, you can use techniques like JSONP (JSON with Padding), Cross-Origin Resource Sharing (CORS), or utilize 
+     a server as a proxy to make requests on your behalf.
+
+Q4. Compare Promises to callbacks and discuss why Promises are preferred for managing asynchronous code.
+
+Ans. Promises are preferred over callbacks for managing asynchronous code because they provide a more structured and readable way to handle asynchronous operations. 
+     Promises offer better error handling, avoid callback hell (nested callbacks), and support chaining, making the code more maintainable. I personally also 
+     prefer using promises instead of callbacks.
+
+Q5. List and briefly explain some common Browser APIs available to JavaScript developers.
+
+Ans. There are many apis provided by browsers : -
+
+    Fetch API -> A modern alternative to XHR, providing a more flexible and powerful interface for making network requests and handling responses.
+
+    GeoLocation API -> With the help of this api, the location of user's device can be accessed if user allows.
+
+    DOM -> It allows the javascript to access and manipulate the html data on the website in an efficient way. 
+
+    XMLHttpRequest (XHR): Enables making HTTP requests from the browser, facilitating communication with servers and fetching data asynchronously.
+
+    Canvas API -> It works as a tool for working with graphics in the browser to create images in attractive way.
+
+    LocalStorage and SessionStorage -> Allows the storage of some data for sometime on the storage of browser which can be used later.
+
+Q6.Describe the purpose and usage of the localStorage and sessionStorage APIs in web development. Give suitable examples for each.
+
+Ans. LocalStorage and sessionStorage are two apis for storage of data : -
+
+    LocalStorage -> 
+        Purpose -> The main purposes of localStorage is to store data that will be used for long time which will be available even after reopening the browser window.
+        Usage -> It is mostly used for storing authentication tokens and it is also used to store data like site cache, form data and data for future use etc.
+
+    SessionStorage ->
+        Purpose -> The main purpose of sessionStorage is to store data for a short time. i.e., it is only available until the site is closed, or the tab or browser closed.
+        Usage -> It is used to store the state of the webpage, highly secure user authentication tokens like banks' token, session based forms, and other short time usage data etc.
